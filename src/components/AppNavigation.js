@@ -122,7 +122,7 @@ export default function AppNavigation() {
           </ListItemIcon>
           <ListItemText primary="Dashboard" />
         </ListItem>
-
+{/* 
         <ListItem
           key="/bar"
           button
@@ -133,8 +133,8 @@ export default function AppNavigation() {
             <FastfoodOutlined />
           </ListItemIcon>
           <ListItemText primary="Bar" />
-          {/* {open ? <ExpandLess /> : <ExpandMore />} */}
-        </ListItem>
+          {open ? <ExpandLess /> : <ExpandMore />}
+        </ListItem> */}
 
         {/* <Collapse in={open} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
@@ -160,14 +160,14 @@ export default function AppNavigation() {
           </List>
         </Collapse> */}
 
-        <ListItem button>
+        {/* <ListItem button>
           <ListItemIcon>
             <WavesOutlined />
           </ListItemIcon>
           <ListItemText primary="Pools" />
           {open ? <ExpandLess /> : <ExpandMore />}
-        </ListItem>
-        <Collapse in={open} timeout="auto" unmountOnExit>
+        </ListItem> */}
+        {/* <Collapse in={open} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
             <ListItem
               button
@@ -190,7 +190,7 @@ export default function AppNavigation() {
                 <DetailsOutlined />
               </ListItemIcon>
               <ListItemText primary="All" />
-            </ListItem>
+            </ListItem> */}
 
             {/* <ListItem
               button
@@ -214,8 +214,8 @@ export default function AppNavigation() {
               </ListItemIcon>
               <ListItemText primary="Losers" />
             </ListItem> */}
-          </List>
-        </Collapse>
+          {/* </List>
+        </Collapse> */}
 
         <ListItem button>
           <ListItemIcon>
@@ -284,7 +284,8 @@ export default function AppNavigation() {
           </ListItemIcon>
           <ListItemText primary="Tokens" />
         </ListItem>
-        <ListItem
+
+        {/* <ListItem
           button
           key="/portfolio"
           selected={router.pathname.includes("/portfolio")}
@@ -301,7 +302,7 @@ export default function AppNavigation() {
             <AccountTreeOutlined />
           </ListItemIcon>
           <ListItemText primary="Portfolio" />
-        </ListItem>
+        </ListItem> */}
       </List>
       <Dialog
         maxWidth="sm"

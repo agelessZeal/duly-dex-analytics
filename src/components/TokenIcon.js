@@ -21,7 +21,7 @@ export default function TokenIcon({ id, ...rest }) {
     [id]
   );
   if(toChecksumAddress(id) === toChecksumAddress('0xe35aa1a17779d253236343ad0a6f5a5d8e71cb5b')){
-    return <Avatar classes={{ root: classes.root }} src={src} {...rest} />;
+    return <Avatar classes={{ root: classes.root }} src={'/duly.png'} {...rest} />;
   }
   return <Avatar classes={{ root: classes.root }} src={src} {...rest} />;
 }
